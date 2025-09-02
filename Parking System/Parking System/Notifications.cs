@@ -15,6 +15,7 @@ namespace Parking_System.Parking_System
         public Notifications()
         {
             InitializeComponent();
+            //
         }
     }
 }
