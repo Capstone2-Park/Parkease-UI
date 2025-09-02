@@ -39,18 +39,18 @@
             // 
             this.guna2PictureBox1.FillColor = System.Drawing.Color.Brown;
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(28, 27);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(56, 26);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(270, 293);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(398, 362);
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
             // 
             // guna2PictureBox2
             // 
             this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(33, 78);
+            this.guna2PictureBox2.Location = new System.Drawing.Point(61, 77);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(260, 238);
+            this.guna2PictureBox2.Size = new System.Drawing.Size(388, 307);
             this.guna2PictureBox2.TabIndex = 1;
             this.guna2PictureBox2.TabStop = false;
             // 
@@ -59,7 +59,7 @@
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Brown;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(93, 36);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(185, 34);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(134, 34);
             this.guna2HtmlLabel1.TabIndex = 2;
@@ -69,7 +69,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(333, 328);
+            this.ClientSize = new System.Drawing.Size(503, 411);
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.guna2PictureBox2);
             this.Controls.Add(this.guna2PictureBox1);
