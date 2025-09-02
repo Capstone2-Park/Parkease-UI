@@ -46,7 +46,7 @@
             // guna2Button2
             // 
             this.guna2Button2.BorderColor = System.Drawing.Color.White;
-            this.guna2Button2.BorderRadius = 7;
+            this.guna2Button2.BorderRadius = 4;
             this.guna2Button2.BorderThickness = 1;
             this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -55,9 +55,9 @@
             this.guna2Button2.FillColor = System.Drawing.Color.Brown;
             this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Location = new System.Drawing.Point(667, 454);
+            this.guna2Button2.Location = new System.Drawing.Point(573, 442);
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(125, 40);
+            this.guna2Button2.Size = new System.Drawing.Size(117, 35);
             this.guna2Button2.TabIndex = 21;
             this.guna2Button2.Text = "Return";
             // 
@@ -183,7 +183,7 @@
             this.panel1.Controls.Add(this.guna2HtmlLabel21);
             this.panel1.Location = new System.Drawing.Point(12, 57);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(833, 513);
+            this.panel1.Size = new System.Drawing.Size(833, 502);
             this.panel1.TabIndex = 75;
             // 
             // Total_Payments

@@ -63,7 +63,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(39, 355);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(779, 164);
+            this.dataGridView1.Size = new System.Drawing.Size(779, 133);
             this.dataGridView1.TabIndex = 1;
             // 
             // guna2Button2
@@ -78,9 +78,9 @@
             this.guna2Button2.FillColor = System.Drawing.Color.White;
             this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
             this.guna2Button2.ForeColor = System.Drawing.Color.Brown;
-            this.guna2Button2.Location = new System.Drawing.Point(643, 486);
+            this.guna2Button2.Location = new System.Drawing.Point(364, 463);
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(149, 32);
+            this.guna2Button2.Size = new System.Drawing.Size(91, 32);
             this.guna2Button2.TabIndex = 90;
             this.guna2Button2.Text = "Time in";
             // 
@@ -131,7 +131,7 @@
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(496, 85);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(507, 8);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
             this.guna2HtmlLabel3.Size = new System.Drawing.Size(105, 22);
             this.guna2HtmlLabel3.TabIndex = 100;
@@ -155,7 +155,7 @@
             this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel5.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(496, 208);
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(507, 132);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
             this.guna2HtmlLabel5.Size = new System.Drawing.Size(105, 22);
             this.guna2HtmlLabel5.TabIndex = 102;
@@ -267,7 +267,7 @@
             this.panel3.Controls.Add(this.guna2Button2);
             this.panel3.Location = new System.Drawing.Point(25, 49);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(808, 532);
+            this.panel3.Size = new System.Drawing.Size(808, 518);
             this.panel3.TabIndex = 111;
             // 
             // guna2HtmlLabel7
@@ -297,7 +297,7 @@
             this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel9.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel9.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel9.Location = new System.Drawing.Point(23, 129);
+            this.guna2HtmlLabel9.Location = new System.Drawing.Point(23, 116);
             this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
             this.guna2HtmlLabel9.Size = new System.Drawing.Size(55, 17);
             this.guna2HtmlLabel9.TabIndex = 112;
@@ -315,9 +315,9 @@
             this.guna2ComboBox2.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.guna2ComboBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.guna2ComboBox2.ItemHeight = 30;
-            this.guna2ComboBox2.Location = new System.Drawing.Point(23, 152);
+            this.guna2ComboBox2.Location = new System.Drawing.Point(23, 139);
             this.guna2ComboBox2.Name = "guna2ComboBox2";
-            this.guna2ComboBox2.Size = new System.Drawing.Size(203, 36);
+            this.guna2ComboBox2.Size = new System.Drawing.Size(180, 36);
             this.guna2ComboBox2.TabIndex = 111;
             // 
             // guna2ComboBox1
@@ -366,6 +366,8 @@
             this.panel1.Controls.Add(this.guna2ComboBox2);
             this.panel1.Controls.Add(this.guna2HtmlLabel1);
             this.panel1.Controls.Add(this.guna2HtmlLabel7);
+            this.panel1.Controls.Add(this.guna2HtmlLabel5);
+            this.panel1.Controls.Add(this.guna2HtmlLabel3);
             this.panel1.Location = new System.Drawing.Point(39, 71);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(779, 251);
@@ -382,9 +384,7 @@
             this.Controls.Add(this.guna2HtmlLabel10);
             this.Controls.Add(this.guna2HtmlLabel8);
             this.Controls.Add(this.guna2HtmlLabel6);
-            this.Controls.Add(this.guna2HtmlLabel5);
             this.Controls.Add(this.guna2HtmlLabel4);
-            this.Controls.Add(this.guna2HtmlLabel3);
             this.Controls.Add(this.guna2TextBox1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.dataGridView1);

@@ -302,7 +302,7 @@
             this.guna2HtmlLabel26.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel26.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel26.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel26.Location = new System.Drawing.Point(691, 56);
+            this.guna2HtmlLabel26.Location = new System.Drawing.Point(681, 27);
             this.guna2HtmlLabel26.Name = "guna2HtmlLabel26";
             this.guna2HtmlLabel26.Size = new System.Drawing.Size(77, 17);
             this.guna2HtmlLabel26.TabIndex = 33;
@@ -338,7 +338,7 @@
             this.guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.guna2ComboBox1.ItemHeight = 30;
-            this.guna2ComboBox1.Location = new System.Drawing.Point(691, 77);
+            this.guna2ComboBox1.Location = new System.Drawing.Point(681, 48);
             this.guna2ComboBox1.Name = "guna2ComboBox1";
             this.guna2ComboBox1.Size = new System.Drawing.Size(140, 36);
             this.guna2ComboBox1.TabIndex = 30;
@@ -348,7 +348,7 @@
             this.guna2HtmlLabel24.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel24.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel24.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel24.Location = new System.Drawing.Point(120, 7);
+            this.guna2HtmlLabel24.Location = new System.Drawing.Point(119, 22);
             this.guna2HtmlLabel24.Name = "guna2HtmlLabel24";
             this.guna2HtmlLabel24.Size = new System.Drawing.Size(55, 17);
             this.guna2HtmlLabel24.TabIndex = 29;
@@ -359,7 +359,7 @@
             this.guna2HtmlLabel21.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel21.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel21.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel21.Location = new System.Drawing.Point(22, 86);
+            this.guna2HtmlLabel21.Location = new System.Drawing.Point(11, 59);
             this.guna2HtmlLabel21.Name = "guna2HtmlLabel21";
             this.guna2HtmlLabel21.Size = new System.Drawing.Size(66, 27);
             this.guna2HtmlLabel21.TabIndex = 24;
@@ -370,7 +370,7 @@
             this.guna2HtmlLabel23.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel23.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel23.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel23.Location = new System.Drawing.Point(37, 7);
+            this.guna2HtmlLabel23.Location = new System.Drawing.Point(36, 22);
             this.guna2HtmlLabel23.Name = "guna2HtmlLabel23";
             this.guna2HtmlLabel23.Size = new System.Drawing.Size(41, 17);
             this.guna2HtmlLabel23.TabIndex = 28;
@@ -380,7 +380,7 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox2.Location = new System.Drawing.Point(98, 7);
+            this.pictureBox2.Location = new System.Drawing.Point(97, 22);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(16, 16);
             this.pictureBox2.TabIndex = 27;
@@ -390,7 +390,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Green;
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Location = new System.Drawing.Point(15, 7);
+            this.pictureBox1.Location = new System.Drawing.Point(14, 22);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(16, 17);
             this.pictureBox1.TabIndex = 26;
@@ -401,7 +401,7 @@
             this.guna2HtmlLabel22.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel22.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel22.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel22.Location = new System.Drawing.Point(22, 295);
+            this.guna2HtmlLabel22.Location = new System.Drawing.Point(11, 264);
             this.guna2HtmlLabel22.Name = "guna2HtmlLabel22";
             this.guna2HtmlLabel22.Size = new System.Drawing.Size(103, 27);
             this.guna2HtmlLabel22.TabIndex = 25;
@@ -460,7 +460,7 @@
             this.flowLayoutPanel2.Controls.Add(this.panel9);
             this.flowLayoutPanel2.Controls.Add(this.panel10);
             this.flowLayoutPanel2.Controls.Add(this.panel13);
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(22, 328);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(22, 340);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Size = new System.Drawing.Size(809, 165);
             this.flowLayoutPanel2.TabIndex = 19;
@@ -474,7 +474,7 @@
             this.flowLayoutPanel1.Controls.Add(this.panel4);
             this.flowLayoutPanel1.Controls.Add(this.panel5);
             this.flowLayoutPanel1.Controls.Add(this.panel12);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(22, 119);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(11, 92);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(809, 156);
             this.flowLayoutPanel1.TabIndex = 18;
@@ -583,7 +583,7 @@
             this.panel11.BackColor = System.Drawing.Color.Brown;
             this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel11.Controls.Add(this.guna2HtmlLabel1);
-            this.panel11.Location = new System.Drawing.Point(10, 11);
+            this.panel11.Location = new System.Drawing.Point(10, 24);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(835, 32);
             this.panel11.TabIndex = 73;
@@ -670,9 +670,14 @@
             this.panel14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel14.Controls.Add(this.guna2Button1);
             this.panel14.Controls.Add(this.pictureBox2);
+            this.panel14.Controls.Add(this.guna2HtmlLabel26);
             this.panel14.Controls.Add(this.pictureBox1);
+            this.panel14.Controls.Add(this.guna2ComboBox1);
             this.panel14.Controls.Add(this.guna2HtmlLabel23);
+            this.panel14.Controls.Add(this.guna2HtmlLabel21);
             this.panel14.Controls.Add(this.guna2HtmlLabel24);
+            this.panel14.Controls.Add(this.guna2HtmlLabel22);
+            this.panel14.Controls.Add(this.flowLayoutPanel1);
             this.panel14.Location = new System.Drawing.Point(10, 42);
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(835, 539);
@@ -685,12 +690,7 @@
             this.ClientSize = new System.Drawing.Size(857, 593);
             this.Controls.Add(this.panel11);
             this.Controls.Add(this.guna2HtmlLabel25);
-            this.Controls.Add(this.guna2HtmlLabel26);
-            this.Controls.Add(this.guna2ComboBox1);
-            this.Controls.Add(this.guna2HtmlLabel21);
-            this.Controls.Add(this.guna2HtmlLabel22);
             this.Controls.Add(this.flowLayoutPanel2);
-            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.panel14);
             this.Name = "Parking_Slots";
             this.Text = "Parking_Slots";

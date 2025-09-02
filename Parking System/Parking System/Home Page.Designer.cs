@@ -258,7 +258,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.Brown;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Location = new System.Drawing.Point(212, -7);
+            this.panel2.Location = new System.Drawing.Point(212, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(875, 10);
             this.panel2.TabIndex = 30;
@@ -491,8 +491,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Brown;
             this.ClientSize = new System.Drawing.Size(1087, 631);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel3);
             this.Name = "Home_Page";
             this.Text = "Home_Page";
