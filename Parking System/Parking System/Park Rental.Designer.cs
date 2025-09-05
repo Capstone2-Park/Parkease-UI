@@ -48,6 +48,7 @@
             this.guna2HtmlLabel11 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2DateTimePicker2 = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -89,7 +90,7 @@
             this.guna2ComboBox1.ItemHeight = 30;
             this.guna2ComboBox1.Location = new System.Drawing.Point(123, 65);
             this.guna2ComboBox1.Name = "guna2ComboBox1";
-            this.guna2ComboBox1.Size = new System.Drawing.Size(201, 36);
+            this.guna2ComboBox1.Size = new System.Drawing.Size(187, 36);
             this.guna2ComboBox1.TabIndex = 85;
             // 
             // guna2ComboBox2
@@ -103,7 +104,7 @@
             this.guna2ComboBox2.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.guna2ComboBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.guna2ComboBox2.ItemHeight = 30;
-            this.guna2ComboBox2.Location = new System.Drawing.Point(453, 65);
+            this.guna2ComboBox2.Location = new System.Drawing.Point(422, 65);
             this.guna2ComboBox2.Name = "guna2ComboBox2";
             this.guna2ComboBox2.Size = new System.Drawing.Size(201, 36);
             this.guna2ComboBox2.TabIndex = 86;
@@ -121,17 +122,19 @@
             this.guna2ComboBox3.ItemHeight = 30;
             this.guna2ComboBox3.Location = new System.Drawing.Point(123, 127);
             this.guna2ComboBox3.Name = "guna2ComboBox3";
-            this.guna2ComboBox3.Size = new System.Drawing.Size(201, 36);
+            this.guna2ComboBox3.Size = new System.Drawing.Size(187, 36);
             this.guna2ComboBox3.TabIndex = 87;
             // 
             // guna2DateTimePicker1
             // 
+            this.guna2DateTimePicker1.BorderColor = System.Drawing.Color.Maroon;
+            this.guna2DateTimePicker1.BorderThickness = 1;
             this.guna2DateTimePicker1.Checked = true;
             this.guna2DateTimePicker1.FillColor = System.Drawing.Color.White;
             this.guna2DateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2DateTimePicker1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.guna2DateTimePicker1.Location = new System.Drawing.Point(453, 127);
+            this.guna2DateTimePicker1.Location = new System.Drawing.Point(422, 127);
             this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
@@ -144,7 +147,7 @@
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(359, 144);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(328, 144);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(69, 19);
             this.guna2HtmlLabel1.TabIndex = 90;
@@ -155,7 +158,7 @@
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(359, 78);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(328, 78);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(86, 19);
             this.guna2HtmlLabel2.TabIndex = 91;
@@ -223,6 +226,7 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.White;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.guna2DateTimePicker2);
             this.panel3.Controls.Add(this.guna2ComboBox1);
             this.panel3.Controls.Add(this.guna2HtmlLabel3);
             this.panel3.Controls.Add(this.guna2Button2);
@@ -254,7 +258,7 @@
             // 
             this.guna2Button10.BorderColor = System.Drawing.Color.Brown;
             this.guna2Button10.BorderRadius = 3;
-            this.guna2Button10.BorderThickness = 2;
+            this.guna2Button10.BorderThickness = 1;
             this.guna2Button10.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button10.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button10.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -311,7 +315,7 @@
             // 
             this.guna2Button2.BorderColor = System.Drawing.Color.Maroon;
             this.guna2Button2.BorderRadius = 3;
-            this.guna2Button2.BorderThickness = 2;
+            this.guna2Button2.BorderThickness = 1;
             this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -324,6 +328,24 @@
             this.guna2Button2.Size = new System.Drawing.Size(117, 29);
             this.guna2Button2.TabIndex = 97;
             this.guna2Button2.Text = "Set Schedule";
+            // 
+            // guna2DateTimePicker2
+            // 
+            this.guna2DateTimePicker2.BorderColor = System.Drawing.Color.Maroon;
+            this.guna2DateTimePicker2.BorderThickness = 1;
+            this.guna2DateTimePicker2.Checked = true;
+            this.guna2DateTimePicker2.FillColor = System.Drawing.Color.White;
+            this.guna2DateTimePicker2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2DateTimePicker2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.guna2DateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.guna2DateTimePicker2.Location = new System.Drawing.Point(629, 127);
+            this.guna2DateTimePicker2.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.guna2DateTimePicker2.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.guna2DateTimePicker2.Name = "guna2DateTimePicker2";
+            this.guna2DateTimePicker2.ShowUpDown = true;
+            this.guna2DateTimePicker2.Size = new System.Drawing.Size(114, 36);
+            this.guna2DateTimePicker2.TabIndex = 98;
+            this.guna2DateTimePicker2.Value = new System.DateTime(2025, 9, 5, 20, 47, 0, 0);
             // 
             // Park_Rental
             // 
@@ -365,5 +387,6 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private Guna.UI2.WinForms.Guna2Button guna2Button10;
         private Guna.UI2.WinForms.Guna2Button guna2Button5;
+        private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker2;
     }
 }

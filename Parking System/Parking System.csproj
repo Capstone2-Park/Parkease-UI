@@ -53,11 +53,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Parking System\Available Slots.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parking System\Available Slots.Designer.cs">
+      <DependentUpon>Available Slots.cs</DependentUpon>
+    </Compile>
     <Compile Include="Parking System\Client Management.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Parking System\Client Management.Designer.cs">
       <DependentUpon>Client Management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parking System\Finance Sum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parking System\Finance Sum.Designer.cs">
+      <DependentUpon>Finance Sum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parking System\Historical RecordReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parking System\Historical RecordReg.Designer.cs">
+      <DependentUpon>Historical RecordReg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parking System\Historical Records.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parking System\Historical Records.Designer.cs">
+      <DependentUpon>Historical Records.cs</DependentUpon>
     </Compile>
     <Compile Include="Parking System\Home Page.cs">
       <SubType>Form</SubType>
@@ -83,6 +107,12 @@
     <Compile Include="Parking System\Park Rental.Designer.cs">
       <DependentUpon>Park Rental.cs</DependentUpon>
     </Compile>
+    <Compile Include="Parking System\Park Usage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parking System\Park Usage.Designer.cs">
+      <DependentUpon>Park Usage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Parking System\Parking Slots.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +124,12 @@
     </Compile>
     <Compile Include="Parking System\QR Code.Designer.cs">
       <DependentUpon>QR Code.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parking System\Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parking System\Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
     </Compile>
     <Compile Include="Parking System\Regular Parking.cs">
       <SubType>Form</SubType>
@@ -107,6 +143,12 @@
     <Compile Include="Parking System\RegularParking Total.Designer.cs">
       <DependentUpon>RegularParking Total.cs</DependentUpon>
     </Compile>
+    <Compile Include="Parking System\Slot Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parking System\Slot Edit.Designer.cs">
+      <DependentUpon>Slot Edit.cs</DependentUpon>
+    </Compile>
     <Compile Include="Parking System\Total Payments.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,8 +157,20 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Parking System\Available Slots.resx">
+      <DependentUpon>Available Slots.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Parking System\Client Management.resx">
       <DependentUpon>Client Management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parking System\Finance Sum.resx">
+      <DependentUpon>Finance Sum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parking System\Historical RecordReg.resx">
+      <DependentUpon>Historical RecordReg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parking System\Historical Records.resx">
+      <DependentUpon>Historical Records.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Parking System\Home Page.resx">
       <DependentUpon>Home Page.cs</DependentUpon>
@@ -130,17 +184,26 @@
     <EmbeddedResource Include="Parking System\Park Rental.resx">
       <DependentUpon>Park Rental.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Parking System\Park Usage.resx">
+      <DependentUpon>Park Usage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Parking System\Parking Slots.resx">
       <DependentUpon>Parking Slots.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Parking System\QR Code.resx">
       <DependentUpon>QR Code.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Parking System\Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Parking System\Regular Parking.resx">
       <DependentUpon>Regular Parking.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Parking System\RegularParking Total.resx">
       <DependentUpon>RegularParking Total.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parking System\Slot Edit.resx">
+      <DependentUpon>Slot Edit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Parking System\Total Payments.resx">
       <DependentUpon>Total Payments.cs</DependentUpon>
