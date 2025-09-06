@@ -101,6 +101,12 @@
     <Compile Include="Parking System\Login Form.Designer.cs">
       <DependentUpon>Login Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Parking System\Monthly Summaries.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parking System\Monthly Summaries.Designer.cs">
+      <DependentUpon>Monthly Summaries.cs</DependentUpon>
+    </Compile>
     <Compile Include="Parking System\Notifications.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -173,6 +179,12 @@
     <Compile Include="Parking System\User Management.Designer.cs">
       <DependentUpon>User Management.cs</DependentUpon>
     </Compile>
+    <Compile Include="Parking System\Weekly Summaries.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parking System\Weekly Summaries.Designer.cs">
+      <DependentUpon>Weekly Summaries.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Parking System\Available Slots.resx">
@@ -198,6 +210,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Parking System\Login Form.resx">
       <DependentUpon>Login Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parking System\Monthly Summaries.resx">
+      <DependentUpon>Monthly Summaries.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Parking System\Notifications.resx">
       <DependentUpon>Notifications.cs</DependentUpon>
@@ -234,6 +249,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Parking System\User Management.resx">
       <DependentUpon>User Management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parking System\Weekly Summaries.resx">
+      <DependentUpon>Weekly Summaries.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
