@@ -65,8 +65,8 @@
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.Brown;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(37, 2);
+            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.Black;
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(37, 17);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(52, 19);
             this.guna2HtmlLabel2.TabIndex = 20;
@@ -76,8 +76,8 @@
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.Brown;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(418, 111);
+            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.Black;
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(418, 113);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(108, 19);
             this.guna2HtmlLabel1.TabIndex = 19;
@@ -95,7 +95,7 @@
             // 
             this.guna2HtmlLabel21.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel21.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel21.ForeColor = System.Drawing.Color.Brown;
+            this.guna2HtmlLabel21.ForeColor = System.Drawing.Color.Black;
             this.guna2HtmlLabel21.Location = new System.Drawing.Point(418, 27);
             this.guna2HtmlLabel21.Name = "guna2HtmlLabel21";
             this.guna2HtmlLabel21.Size = new System.Drawing.Size(93, 19);
@@ -143,7 +143,7 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(37, 27);
+            this.richTextBox1.Location = new System.Drawing.Point(37, 40);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(336, 450);
             this.richTextBox1.TabIndex = 14;
@@ -166,12 +166,13 @@
             this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.White;
             this.guna2HtmlLabel3.Location = new System.Drawing.Point(362, 2);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(133, 21);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(121, 21);
             this.guna2HtmlLabel3.TabIndex = 82;
-            this.guna2HtmlLabel3.Text = "Total Payments..";
+            this.guna2HtmlLabel3.Text = "Total Payments";
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.guna2Button2);
             this.panel1.Controls.Add(this.guna2HtmlLabel2);
@@ -183,7 +184,7 @@
             this.panel1.Controls.Add(this.guna2HtmlLabel21);
             this.panel1.Location = new System.Drawing.Point(12, 57);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(833, 502);
+            this.panel1.Size = new System.Drawing.Size(833, 509);
             this.panel1.TabIndex = 75;
             // 
             // Total_Payments

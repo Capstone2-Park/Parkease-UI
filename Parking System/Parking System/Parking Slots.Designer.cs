@@ -667,6 +667,7 @@
             // 
             // panel14
             // 
+            this.panel14.BackColor = System.Drawing.Color.WhiteSmoke;
             this.panel14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel14.Controls.Add(this.guna2Button1);
             this.panel14.Controls.Add(this.pictureBox2);

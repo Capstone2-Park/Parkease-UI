@@ -61,16 +61,16 @@
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ScrollBar;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(39, 355);
+            this.dataGridView1.Location = new System.Drawing.Point(39, 362);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(779, 133);
+            this.dataGridView1.Size = new System.Drawing.Size(779, 144);
             this.dataGridView1.TabIndex = 1;
             // 
             // guna2Button2
             // 
             this.guna2Button2.BorderColor = System.Drawing.Color.Brown;
             this.guna2Button2.BorderRadius = 4;
-            this.guna2Button2.BorderThickness = 2;
+            this.guna2Button2.BorderThickness = 1;
             this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -78,7 +78,7 @@
             this.guna2Button2.FillColor = System.Drawing.Color.White;
             this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
             this.guna2Button2.ForeColor = System.Drawing.Color.Brown;
-            this.guna2Button2.Location = new System.Drawing.Point(364, 463);
+            this.guna2Button2.Location = new System.Drawing.Point(672, 472);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(91, 32);
             this.guna2Button2.TabIndex = 90;
@@ -263,6 +263,7 @@
             // 
             // panel3
             // 
+            this.panel3.BackColor = System.Drawing.Color.WhiteSmoke;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.guna2Button2);
             this.panel3.Location = new System.Drawing.Point(25, 49);

@@ -45,7 +45,6 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.guna2Button10 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2HtmlLabel11 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2DateTimePicker2 = new Guna.UI2.WinForms.Guna2DateTimePicker();
@@ -167,11 +166,11 @@
             // guna2HtmlLabel3
             // 
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(369, 16);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(9, 10);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(101, 22);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(110, 23);
             this.guna2HtmlLabel3.TabIndex = 93;
             this.guna2HtmlLabel3.Text = "Client Name--";
             this.guna2HtmlLabel3.Click += new System.EventHandler(this.guna2HtmlLabel3_Click);
@@ -210,7 +209,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.guna2Button10);
             this.panel1.Controls.Add(this.guna2Button5);
@@ -224,7 +223,7 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.White;
+            this.panel3.BackColor = System.Drawing.Color.WhiteSmoke;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.guna2DateTimePicker2);
             this.panel3.Controls.Add(this.guna2ComboBox1);
@@ -232,7 +231,6 @@
             this.panel3.Controls.Add(this.guna2Button2);
             this.panel3.Controls.Add(this.guna2HtmlLabel8);
             this.panel3.Controls.Add(this.guna2HtmlLabel5);
-            this.panel3.Controls.Add(this.guna2HtmlLabel11);
             this.panel3.Controls.Add(this.guna2HtmlLabel7);
             this.panel3.Controls.Add(this.guna2ComboBox2);
             this.panel3.Controls.Add(this.guna2HtmlLabel1);
@@ -288,17 +286,6 @@
             this.guna2Button5.Size = new System.Drawing.Size(89, 29);
             this.guna2Button5.TabIndex = 97;
             this.guna2Button5.Text = "Next";
-            // 
-            // guna2HtmlLabel11
-            // 
-            this.guna2HtmlLabel11.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel11.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel11.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel11.Location = new System.Drawing.Point(298, 16);
-            this.guna2HtmlLabel11.Name = "guna2HtmlLabel11";
-            this.guna2HtmlLabel11.Size = new System.Drawing.Size(101, 22);
-            this.guna2HtmlLabel11.TabIndex = 93;
-            this.guna2HtmlLabel11.Text = "Client Name--";
             // 
             // guna2HtmlLabel8
             // 
@@ -383,7 +370,6 @@
         private System.Windows.Forms.Panel panel3;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel8;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel11;
         private System.Windows.Forms.DataGridView dataGridView1;
         private Guna.UI2.WinForms.Guna2Button guna2Button10;
         private Guna.UI2.WinForms.Guna2Button guna2Button5;

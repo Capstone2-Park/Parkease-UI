@@ -65,6 +65,12 @@
     <Compile Include="Parking System\Client Management.Designer.cs">
       <DependentUpon>Client Management.cs</DependentUpon>
     </Compile>
+    <Compile Include="Parking System\Fee Management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parking System\Fee Management.Designer.cs">
+      <DependentUpon>Fee Management.cs</DependentUpon>
+    </Compile>
     <Compile Include="Parking System\Finance Sum.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,6 +149,12 @@
     <Compile Include="Parking System\RegularParking Total.Designer.cs">
       <DependentUpon>RegularParking Total.cs</DependentUpon>
     </Compile>
+    <Compile Include="Parking System\Report Management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parking System\Report Management.Designer.cs">
+      <DependentUpon>Report Management.cs</DependentUpon>
+    </Compile>
     <Compile Include="Parking System\Slot Edit.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -155,6 +167,12 @@
     <Compile Include="Parking System\Total Payments.Designer.cs">
       <DependentUpon>Total Payments.cs</DependentUpon>
     </Compile>
+    <Compile Include="Parking System\User Management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parking System\User Management.Designer.cs">
+      <DependentUpon>User Management.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Parking System\Available Slots.resx">
@@ -162,6 +180,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Parking System\Client Management.resx">
       <DependentUpon>Client Management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parking System\Fee Management.resx">
+      <DependentUpon>Fee Management.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Parking System\Finance Sum.resx">
       <DependentUpon>Finance Sum.cs</DependentUpon>
@@ -202,11 +223,17 @@
     <EmbeddedResource Include="Parking System\RegularParking Total.resx">
       <DependentUpon>RegularParking Total.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Parking System\Report Management.resx">
+      <DependentUpon>Report Management.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Parking System\Slot Edit.resx">
       <DependentUpon>Slot Edit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Parking System\Total Payments.resx">
       <DependentUpon>Total Payments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parking System\User Management.resx">
+      <DependentUpon>User Management.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
